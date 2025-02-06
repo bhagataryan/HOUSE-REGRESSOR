@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Results</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; text-align: center; }
+        .container { max-width: 600px; margin: auto; }
+        h2 { color: green; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Prediction Result</h2>
+        <p><strong>Model Used:</strong> {{ model_name }}</p>
+        <p><strong>Predicted House Price:</strong> ${{ prediction }}</p>
+        <a href="/">Go Back</a>
+    </div>
+</body>
+</html>
